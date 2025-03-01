@@ -52,3 +52,8 @@ helm uninstall local-confluent-kafka
 ```bash
 kubectl delete -f kafka-client.yml
 ```
+
+# local 쿠버네티스 배포
+```bash
+kubectl apply -f application-deployment-local.yml 
+```
