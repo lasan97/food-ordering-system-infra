@@ -55,6 +55,10 @@ kubectl delete -f kafka-client.yml
 
 # local 쿠버네티스 배포
 ```bash
+helm install local-confluent-kafka helm/cp-helm-charts --version 0.6.0
+```
+```bash
+kubectl apply -f postgres-deployment.yml
 kubectl apply -f application-deployment-local.yml 
 ```
 
