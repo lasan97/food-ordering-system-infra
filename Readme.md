@@ -57,3 +57,8 @@ kubectl delete -f kafka-client.yml
 ```bash
 kubectl apply -f application-deployment-local.yml 
 ```
+
+## 로그 출력
+```bash
+kubectl logs {클러스터명} -f 
+```
